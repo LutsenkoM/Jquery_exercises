@@ -1,0 +1,27 @@
+.buttons {
+  li {
+  @include transition (0.5s);
+    padding-top: 1rem;
+    border: 1px solid #000000;
+    background-color: #869791;
+  }
+  button {
+    @include transition (0.5s);
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #017dfb;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.addclass, .removeclass, .toggleclass{
+  transform: scale(2, 2);
+}
